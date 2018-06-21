@@ -1,6 +1,6 @@
 object Demo {
   def main(args: Array[String]): Unit = {
-    println("Hello World!");
+    var a: Int = scala.io.StdIn.readInt()
+    println("Hello World!")
   }
 }
-
